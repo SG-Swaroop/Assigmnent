@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import AllUsers from "./AllUsers";
+import "./App.css";
+import Assignment from "./Assignment";
+import CleanUpEffect from "./CleanUpEffect";
+import DataFetching from "./DataFetching";
+import OnlyOnceEffect from "./OnlyOnceEffect";
+
+import StateAndEffect from "./StateAndEffect";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<{StateAndEffect */}
+      {/*<OnlyOnceEffect />*/}
+      {/*<CleanUpEffect />*/}
+      {/*<DataFetching />*/}
+      {/*<Assignment />*/}
+      <AllUsers />
     </div>
   );
 }
